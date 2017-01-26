@@ -1,9 +1,17 @@
 #board {
-  width: 800px; 
-  height: 500px; 
-  background-color: black;
+  width: 800px;
+  height: 500px;
+  background-color: green;
+  z-index: -1;
 }
 
 #cannon {
 
+}
+
+#main-menu {
+  position: absolute;
+  left: 25vw;
+  top: 30vh;
+  z-index: 0;
 }
